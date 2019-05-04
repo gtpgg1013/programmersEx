@@ -2,6 +2,8 @@ package programmers;
 
 import java.util.*;
 
+// map.containsKey(key) boolean 함수를 사용해서 존재하는지 않는지 확인할 수 있다 (getOrDefault함수 대신 if - else로 분기)
+
 class hash_3 {
     public int solution(String[][] clothes) {
         int answer = 0;
